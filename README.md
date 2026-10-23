@@ -12,7 +12,7 @@ StudyMate AI is an AI-powered study assistant built with Flutter to help student
 
 ## Download APK
 
-Download the Android APK from the [GitHub Releases](https://github.com/YOUR_USERNAME/studymate-ai/releases) page.
+Download the Android APK from the [GitHub Releases](https://github.com/sumaiya-akter-runa/studymate-ai/releases) page.
 
 ## Installation
 
@@ -26,4 +26,4 @@ Download the Android APK from the [GitHub Releases](https://github.com/YOUR_USER
 
 YOUR_NAME
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/sumaiya-akter-runa
