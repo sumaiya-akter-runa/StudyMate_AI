@@ -12,8 +12,8 @@ StudyMate AI is an AI-powered study assistant designed to help students understa
 
 ## Download APK
 
-- [Download the latest APK](https://github.com/sumaiya-akter-runa/studymate-ai/releases/latest/download/app-release.apk)
-- [View all releases](https://github.com/sumaiya-akter-runa/studymate-ai/releases)
+- [Download the latest APK](https://github.com/sumaiya-akter-runa/StudyMate_AI/releases/latest/download/app-release.apk)
+- [View all releases](https://github.com/sumaiya-akter-runa/StudyMate_AI/releases)
 
 ## Installation
 
