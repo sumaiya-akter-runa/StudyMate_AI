@@ -1,6 +1,4 @@
-<div align="center">
 
-<img src="docs/logo.jpg" alt="StudyMate AI logo" width="150">
 
 # StudyMate AI
 
@@ -12,8 +10,7 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)
 
-[**Download APK**](https://github.com/sumaiya-akter-runa/StudyMate_AI/releases/latest) · [Backend repository](https://github.com/sumaiya-akter-runa/studymate-backend)
-
+[**Download APK**](https://github.com/sumaiya-akter-runa/StudyMate_AI/releases/latest) 
 </div>
 
 ---
@@ -60,26 +57,6 @@ PDF processing runs in the background (Celery and Redis), so the app never freez
 | **Practice weak topics** | A quiz built around your weak topics, taken from the PDF where you struggled most |
 | **Account** | Register, login, edit name, change password, delete account, light and dark mode |
 
-## Screenshots
-
-<p align="center">
-  <img src="docs/screenshots/home.jpg" width="200" alt="Home">
-  <img src="docs/screenshots/tutor.jpg" width="200" alt="AI Tutor">
-  <img src="docs/screenshots/chat.jpg" width="200" alt="Answer with copy and listen">
-  <img src="docs/screenshots/history.jpg" width="200" alt="Chat history">
-</p>
-<p align="center">
-  <img src="docs/screenshots/upload.jpg" width="200" alt="Upload PDF">
-  <img src="docs/screenshots/summary.jpg" width="200" alt="Summary">
-  <img src="docs/screenshots/points.jpg" width="200" alt="Key points with page tags">
-  <img src="docs/screenshots/askquiz.jpg" width="200" alt="Ask and create a quiz">
-</p>
-<p align="center">
-  <img src="docs/screenshots/quiz.jpg" width="200" alt="Taking a quiz">
-  <img src="docs/screenshots/retry.jpg" width="200" alt="Retry wrong answers">
-  <img src="docs/screenshots/progress1.jpg" width="200" alt="Progress">
-  <img src="docs/screenshots/progress2.jpg" width="200" alt="Strong topics and history">
-</p>
 
 ## Installation
 
@@ -88,24 +65,6 @@ PDF processing runs in the background (Celery and Redis), so the app never freez
 3. Register, upload a PDF and start asking questions
 
 > The server runs on a free plan, so the first request after a quiet period can take up to a minute.
-
-### Run from source
-
-```bash
-git clone https://github.com/sumaiya-akter-runa/StudyMate_AI.git
-cd StudyMate_AI
-flutter pub get
-```
-
-Set the backend address in `lib/config.dart`:
-
-```dart
-class AppConfig {
-  static const String baseUrl = "https://your-backend.onrender.com";
-}
-```
-
-Then run `flutter run`. For local testing use your computer's IP, for example `http://192.168.0.10:8000`.
 
 ## Tech Stack
 
